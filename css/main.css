@@ -2899,7 +2899,10 @@ html.no-csstransitions .hero-content {
 }
 
 .folio-item__thumb img {
-  vertical-align: bottom;
+   vertical-align: bottom;
+    height: 381px;
+    object-fit: cover;
+    width: 100%;
 }
 
 /* portfolio info
