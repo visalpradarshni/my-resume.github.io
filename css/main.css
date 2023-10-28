@@ -2442,7 +2442,6 @@ html.no-csstransitions .hero-content {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-bottom: 16rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2487,9 +2486,9 @@ html.no-csstransitions .hero-content {
   margin-top: 2rem;
 }
 
-.work-positions .column:nth-child(2n + 1) {
+/* .work-positions .column:nth-child(2n + 1) {
   padding-right: 40px;
-}
+} */
 
 .work-positions .column:nth-child(2n + 2) {
   padding-left: 40px;
@@ -2690,7 +2689,7 @@ html.no-csstransitions .hero-content {
   left: 0;
 }
 
-.services-list__item-header::after {
+/* .services-list__item-header::after {
   border-bottom: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   content: '';
@@ -2708,7 +2707,7 @@ html.no-csstransitions .hero-content {
   transition: all, .3s;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-}
+} */
 
 .services-list__item-body {
   padding-top: 1.2rem;
