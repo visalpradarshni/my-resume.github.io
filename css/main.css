@@ -2023,9 +2023,11 @@ input::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, left top, right top, color-stop(10%, black), to(rgba(0, 0, 0, 0)));
+  /*background: -webkit-gradient(linear, left top, right top, color-stop(10%, black), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(90deg, black 10%, rgba(0, 0, 0, 0) 100%);
   opacity: .25;
+*/  opacity: 1;
+    background: #000000b0;
 }
 
 .no-js .s-hero {
@@ -2460,7 +2462,7 @@ html.no-csstransitions .hero-content {
 .s-about__section--profile::before {
   content: "";
   display: block;
-  background-color: #b3c2c1;
+  background-color: #c6c6c0;
   position: absolute;
   top: 0;
   bottom: 0;
