@@ -2819,7 +2819,7 @@ html.no-csstransitions .hero-content {
  * ------------------------------------------------------------------- */
 .s-portfolio {
   padding-top: 24rem;
-  padding-bottom: 0;
+  padding-bottom: 13rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2845,6 +2845,7 @@ html.no-csstransitions .hero-content {
 .folio-item {
   position: relative;
   overflow: hidden;
+  margin: 10px;
 }
 
 .folio-item__caption {
@@ -2934,7 +2935,10 @@ html.no-csstransitions .hero-content {
   font-size: 1.4rem;
   margin-bottom: 0;
 }
-
+a.folio-item__thumb-link img {
+  height: 223px;
+  object-fit: cover;
+}
 .folio-item__project-link {
   z-index: 2;
   display: block;
