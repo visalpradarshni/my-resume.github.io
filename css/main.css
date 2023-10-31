@@ -115,7 +115,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #f9861a;
+  color: #d8a628;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -440,7 +440,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #f9861a;
+  background: #d8a628;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -449,7 +449,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #f9861a;
+  color: #d8a628;
 }
 
 dd {
@@ -932,7 +932,7 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #f9861a;
+  -webkit-text-fill-color: #d8a628;
   -webkit-transition: background-color 5000s ease-in-out 0s;
   transition: background-color 5000s ease-in-out 0s;
 }
@@ -994,8 +994,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #f9861a;
-  border-color: #f9861a;
+  background: #d8a628;
+  border-color: #d8a628;
   color: #ffffff;
 }
 
@@ -1215,7 +1215,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #f9861a;
+  color: #d8a628;
 }
 
 .stats-tabs li a em {
@@ -1480,7 +1480,7 @@ input::-moz-focus-inner {
   letter-spacing: .4em;
   margin-top: 0;
   margin-bottom: 6rem;
-  color: #f9861a;
+  color: #d8a628;
 }
 
 .display-1 {
@@ -1651,8 +1651,8 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky .header-logo img {
-  width: 35px;
-  height: 38px;
+  width: 100%;
+  height: 50px;
 }
 
 .s-header.sticky .header-content .btn {
@@ -1699,8 +1699,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 41px;
-  height: 44px;
+  width: 100%;
+  height: 62px;
   vertical-align: bottom;
 }
 
@@ -1844,8 +1844,8 @@ input::-moz-focus-inner {
 
 .header-content .btn:hover,
 .header-content .btn:focus {
-  background-color: #f9861a !important;
-  border-color: #f9861a !important;
+  background-color: #d8a628 !important;
+  border-color: #d8a628 !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2058,7 +2058,7 @@ input::-moz-focus-inner {
   display: block;
   height: 2px;
   width: 8rem;
-  background-color: #f9861a;
+  background-color: #d8a628;
   position: absolute;
   left: -10.8rem;
   top: .55em;
@@ -2095,7 +2095,7 @@ input::-moz-focus-inner {
 .hero-social a:hover,
 .hero-social a:focus,
 .hero-social a:active {
-  color: #f9861a;
+  color: #d8a628;
 }
 
 .hero-social li {
@@ -2169,7 +2169,7 @@ input::-moz-focus-inner {
 
 .hero-scroll .scroll-link:hover,
 .hero-scroll .scroll-link:focus {
-  background-color: #f9861a;
+  background-color: #d8a628;
 }
 
 /* -------------------------------------------------------------------
@@ -2628,7 +2628,7 @@ html.no-csstransitions .hero-content {
 .s-services .vert-line {
   width: 2px;
   height: 20rem;
-  background-color: #f9861a;
+  background-color: #d8a628;
   -webkit-transform: translate3d(50%, 0, 0);
   transform: translate3d(50%, 0, 0);
   position: absolute;
@@ -2683,7 +2683,7 @@ html.no-csstransitions .hero-content {
   font-weight: 600;
   font-size: .5em;
   line-height: 1;
-  color: #f9861a;
+  color: #d8a628;
   position: absolute;
   top: .5em;
   left: 0;
@@ -2974,7 +2974,7 @@ a.folio-item__thumb-link img {
 .folio-item__project-link:hover,
 .folio-item__project-link:focus,
 .folio-item__project-link:active {
-  background-color: #f9861a;
+  background-color: #d8a628;
   color: #ffffff;
 }
 
@@ -3268,7 +3268,7 @@ a.folio-item__thumb-link img {
 }
 
 .s-footer .right-vert-line {
-  background-color: #f9861a;
+  background-color: #d8a628;
 }
 
 .s-footer__bottom {
@@ -3305,7 +3305,7 @@ a.folio-item__thumb-link img {
 
 .footer-contact-block a:hover,
 .footer-contact-block a:focus {
-  color: #f9861a;
+  color: #d8a628;
 }
 
 .footer-contact-block__content,
@@ -3342,7 +3342,7 @@ a.folio-item__thumb-link img {
 
 .ss-copyright a:hover,
 .ss-copyright a:focus {
-  color: #f9861a;
+  color: #d8a628;
 }
 
 .ss-copyright span {
@@ -3392,7 +3392,7 @@ a.folio-item__thumb-link img {
 
 .ss-go-top a:hover,
 .ss-go-top a:focus {
-  background-color: #f9861a;
+  background-color: #d8a628;
 }
 
 .ss-go-top svg {
