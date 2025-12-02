@@ -2492,9 +2492,9 @@ html.no-csstransitions .hero-content {
   padding-right: 40px;
 } */
 
-.work-positions .column:nth-child(2n + 2) {
+/* .work-positions .column:nth-child(2n + 2) {
   padding-left: 40px;
-}
+} */
 
 .position {
   padding-top: 3.6rem;
