@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: sans-serif;
+            padding: 40px 20px;
+            background: #f9f9f9;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 24px;
+            color: #111;
+        }
+
+        /* --- Tabs --- */
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #ddd;
+            margin-bottom: 24px;
+        }
+
+        .tab-btn {
+            padding: 10px 24px;
+            background: none;
+            border: none;
+            font-size: 15px;
+            cursor: pointer;
+            color: #888;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+        }
+
+        .tab-btn.active {
+            color: #111;
+            font-weight: bold;
+            border-bottom: 2px solid #111;
+        }
+
+        /* --- Tab content --- */
+        .tab-panel { display: none; }
+        .tab-panel.active { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+
+        /* --- Cards --- */
+        .card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            display: block;
+            background: #eee;
+        }
+
+        .card-body { padding: 12px; }
+
+        .card-cat {
+            font-size: 11px;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 4px;
+        }
+
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #111;
+            margin-bottom: 10px;
+        }
+
+        .card-link {
+            font-size: 13px;
+            color: #555;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 5px 12px;
+            display: inline-block;
+        }
+
+        .card-link:hover { background: #f0f0f0; }
+    </style>
+</head>
+<body>
+
+    <h2>Portfolio</h2>
+
+    <!-- Tab Buttons -->
+    <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('web', this)">Web</button>
+        <button class="tab-btn" onclick="showTab('graphics', this)">Graphics</button>
+    </div>
+
+    <!-- Web Tab -->
+    <div id="web" class="tab-panel active">
+
+        <div class="card">
+            <img src="images/portfolio/moda.webp" alt="Moda Pharmacy">
+            <div class="card-body">
+                <div class="card-cat">Pharmacy</div>
+                <div class="card-title">Moda Pharmacy</div>
+                <a href="https://www.modapharmacy.co.uk/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/scriptrx.webp" alt="ScriptRx">
+            <div class="card-body">
+                <div class="card-cat">E-prescription System</div>
+                <div class="card-title">ScriptRx</div>
+                <a href="https://scriptrx.co.uk/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/foreignclassroom.webp" alt="Foreign Classroom">
+            <div class="card-body">
+                <div class="card-cat">Admission Hub</div>
+                <div class="card-title">Foreign Classroom</div>
+                <a href="https://foreignclassroom.com/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/website-zodic.webp" alt="Zodic Tech">
+            <div class="card-body">
+                <div class="card-cat">Software & IT</div>
+                <div class="card-title">Zodic Tech</div>
+                <a href="https://visalpradarshni.github.io/website-zodic/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/teamsixcleaning.webp" alt="Team Six Cleaning">
+            <div class="card-body">
+                <div class="card-cat">Janitorial</div>
+                <div class="card-title">Team Six Cleaning</div>
+                <a href="https://teamsixcleaning.com/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/neskeb.webp" alt="Neskeb">
+            <div class="card-body">
+                <div class="card-cat">Wire & Cables</div>
+                <div class="card-title">Neskeb</div>
+                <a href="https://www.neskeb.com/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/napels.webp" alt="Napels">
+            <div class="card-body">
+                <div class="card-cat">Food</div>
+                <div class="card-title">Napels</div>
+                <a href="https://naplespizza.in/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Graphics Tab -->
+    <div id="graphics" class="tab-panel">
+
+        <div class="card">
+            <img src="images/portfolio/blueclub.webp" alt="Blue Club">
+            <div class="card-body">
+                <div class="card-cat">Branding</div>
+                <div class="card-title">Blue Club's</div>
+                <a href="https://blueclub.in/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/halfio.webp" alt="Halfio">
+            <div class="card-body">
+                <div class="card-cat">App Branding</div>
+                <div class="card-title">Halfio</div>
+                <a href="https://visalpradarshni.github.io/Helfio" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/portfolio/tizzytheelf.webp" alt="Tizzy Theelf">
+            <div class="card-body">
+                <div class="card-cat">App Design</div>
+                <div class="card-title">Tizzy Theelf</div>
+                <a href="https://tizzytheelf.app/" target="_blank" class="card-link">Visit Site →</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function showTab(id, btn) {
+            // Hide all panels
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            // Remove active from all buttons
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            // Show selected
+            document.getElementById(id).classList.add('active');
+            btn.classList.add('active');
+        }
+    </script>
+
+</body>
+</html>

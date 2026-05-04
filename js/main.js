@@ -337,3 +337,13 @@
 
 
   document.getElementById("year").textContent = new Date().getFullYear();
+
+    function showTab(id, btn) {
+            // Hide all panels
+            document.querySelectorAll('.tab-panel-portpolio').forEach(p => p.classList.remove('active'));
+            // Remove active from all buttons
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            // Show selected
+            document.getElementById(id).classList.add('active');
+            btn.classList.add('active');
+        }
