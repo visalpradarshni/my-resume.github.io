@@ -3502,7 +3502,7 @@ a.folio-item__thumb-link img {
  gap: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
 }
 
 /* --- card-portpolios --- */
